@@ -20,7 +20,8 @@
 nav, footer, article {
     display: none;
 }
-
+/* Hides these elements when trying to print out the webpage. */
+/* Comic Book Sheet Styles */
 section#sheet {
     width: 6in;
     margin: 0in auto;
@@ -39,9 +40,7 @@ section#sheet {
 .size4 {
     width: 1.5in ;
 }
-
-/* Comic Book Sheet Styles */
-
+/* This changes the margins and widths for the id sheet and classes dealing in size to have it better fit a page using absolute units, so the printer can print the page and it will look cleaner. */
 
 
 
